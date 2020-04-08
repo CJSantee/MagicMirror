@@ -1,0 +1,18 @@
+[submodule "modules/MMM-COVID19"]
+	path = modules/MMM-COVID19
+	url = https://github.com/bibaldo/MMM-COVID19
+[submodule "modules/MMM-KeyBindings"]
+	path = modules/MMM-KeyBindings
+	url = https://github.com/shbatm/MMM-KeyBindings
+[submodule "MMM-NowPlayingOnSpotify"]
+	path = MMM-NowPlayingOnSpotify
+	url = https://github.com/raywo/MMM-NowPlayingOnSpotify
+[submodule "modules/MMM-NowPlayingOnSpotify"]
+	path = modules/MMM-NowPlayingOnSpotify
+	url = https://github.com/raywo/MMM-NowPlayingOnSpotify
+[submodule "modules/MMM-pages"]
+	path = modules/MMM-pages
+	url = https://github.com/edward-shen/MMM-pages
+[submodule "modules/MMM-page-indicator"]
+	path = modules/MMM-page-indicator
+	url = https://github.com/edward-shen/MMM-page-indicator
