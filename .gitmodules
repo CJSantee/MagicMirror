@@ -16,3 +16,6 @@
 [submodule "modules/MMM-page-indicator"]
 	path = modules/MMM-page-indicator
 	url = https://github.com/edward-shen/MMM-page-indicator
+[submodule "modules/MMM-MirrorMirrorOnTheWall"]
+	path = modules/MMM-MirrorMirrorOnTheWall
+	url = https://github.com/joanaz/MMM-MirrorMirrorOnTheWall.git

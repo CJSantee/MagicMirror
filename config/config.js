@@ -121,10 +121,10 @@ var config = {
 			config: {
 				showCoverArt: false,
 				clientID: "d0597adcbaaa4a549b7a65f34206d3ce",
-				clientSecret: "0c3ba20c7f05490a93d705f98cde84ab",
-				accessToken: "BQBuUphG0eoblPnELSN24NBxktd39NxEAe21W5SVL7WsGXcLr7HwakGlefD6oeYtI0EpkkB9A8t6G-Bj1YiMwqyMXhllWtRmH3yFYup7TdE6l4iqBR4CkjvEkm-6LKFtSVJQUT7Ye5eMdMyZSApDufC_bf6K16E",
-				refreshToken: "AQDSw_IG6zAxrIYghsaqILIDCXt4yC6mDSF4DVSO8j6eIY2jYjVZ-I5ffnSZ-vRD8MWBblYco6xswGW-loK0GGCffJ3EDxh-dXU3Gpz7S6HG-iDxQcnIOF5K4D6jb5PjPPM"
-			}
+                clientSecret: "0c3ba20c7f05490a93d705f98cde84ab",
+                accessToken: "BQD-Yy2pB5n_lSvufuZKu_lqN7DANkUZUcOdxxTdSl_Dc6xr1Wjif-bz7cogZRNoIm54B7V5FY6TbqE_2L2n9B0G7CUAYvxCAFAkkO37mN0X0q63tAkeqtITfMr2LmZl1GhA8KVHwlIwZkt-341-RmWz1KlTdfE",
+                refreshToken: "AQBbECTp6CqMosgcqLR_t_LjW02KjZ2lmcKhxsBAIORSugdXzS2MoWX1UIiyYc2iHJs9nbPmNuEG01e1gOgB1KU8OjTjSGXgs0dxEw4gJ96EcQMwhT764Pie1o_WWsdmOtA"
+            }
 		},
 		{
 			module: 'MMM-page-indicator',
@@ -138,11 +138,11 @@ var config = {
 			config: {
                 modules:
                     [
-						[ "calendar", "MMM-NowPlayingOnSpotify" ],
-						[ "MMM-COVID19", "newsfeed" ],
+						[ "MMM-NowPlayingOnSpotify" ],
+						[ "newsfeed" ],
 						[ "compliments" ]
 					],
-                fixed: ["clock", "MMM-page-indicator", "currentweather"],
+                fixed: [ "calendar", "clock", "MMM-page-indicator", "currentweather", "MMM-MirrorMirrorOnTheWall"],
 			}
 		},
 		{
@@ -160,6 +160,11 @@ var config = {
 				}]
 			}
 		},
+		{
+			module: 'MMM-MirrorMirrorOnTheWall',
+			position: "middle_center",
+			config: {}
+		}
 	]
 
 };
