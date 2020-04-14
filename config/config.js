@@ -142,7 +142,7 @@ var config = {
 						[ "newsfeed" ],
 						[ "compliments" ]
 					],
-                fixed: [ "calendar", "clock", "MMM-page-indicator", "currentweather", "MMM-MirrorMirrorOnTheWall"],
+                fixed: [ "calendar", "clock", "MMM-page-indicator", "currentweather"],
 			}
 		},
 		{
@@ -159,11 +159,6 @@ var config = {
 					notification: "PAGE_INCREMENT"
 				}]
 			}
-		},
-		{
-			module: 'MMM-MirrorMirrorOnTheWall',
-			position: "middle_center",
-			config: {}
 		}
 	]
 
