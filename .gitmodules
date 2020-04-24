@@ -19,3 +19,15 @@
 [submodule "modules/MMM-MirrorMirrorOnTheWall"]
 	path = modules/MMM-MirrorMirrorOnTheWall
 	url = https://github.com/joanaz/MMM-MirrorMirrorOnTheWall.git
+[submodule "modules/MMM-Voice-Commands"]
+	path = modules/MMM-Voice-Commands
+	url = https://github.com/Veldrovive/MMM-Voice-Commands.git
+[submodule "modules/MMM-Voice"]
+	path = modules/MMM-Voice
+	url = https://github.com/fewieden/MMM-voice
+[submodule "modules/MMM-Remote-Control"]
+	path = modules/MMM-Remote-Control
+	url = https://github.com/Jopyth/MMM-Remote-Control.git
+[submodule "modules/MMM-CloneWardsQuotes"]
+	path = modules/MMM-CloneWardsQuotes
+	url = https://github.com/macd2point0/MMM-CloneWarsQuotes
